@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Digits\0.jpg" />
+    <None Remove="Digits\1.jpg" />
+    <None Remove="Digits\2.jpg" />
+    <None Remove="Digits\3.jpg" />
+    <None Remove="Digits\4.jpg" />
+    <None Remove="Digits\5.jpg" />
+    <None Remove="Digits\6.jpg" />
+    <None Remove="Digits\7.jpg" />
+    <None Remove="Digits\8.jpg" />
+    <None Remove="Resources\part1.jpg" />
+    <None Remove="Resources\part2.jpg" />
+    <None Remove="Resources\part3.jpg" />
+    <None Remove="Resources\part4.jpg" />
+    <None Remove="Resources\part5.jpg" />
+    <None Remove="Resources\part6.jpg" />
+    <None Remove="Resources\part7.jpg" />
+    <None Remove="Resources\part8.jpg" />
+    <None Remove="Resources\part9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Digits\0.jpg" />
+    <Resource Include="Digits\1.jpg" />
+    <Resource Include="Digits\2.jpg" />
+    <Resource Include="Digits\3.jpg" />
+    <Resource Include="Digits\4.jpg" />
+    <Resource Include="Digits\5.jpg" />
+    <Resource Include="Digits\6.jpg" />
+    <Resource Include="Digits\7.jpg" />
+    <Resource Include="Digits\8.jpg" />
+    <Resource Include="Resources\part1.jpg" />
+    <Resource Include="Resources\part2.jpg" />
+    <Resource Include="Resources\part3.jpg" />
+    <Resource Include="Resources\part4.jpg" />
+    <Resource Include="Resources\part5.jpg" />
+    <Resource Include="Resources\part6.jpg" />
+    <Resource Include="Resources\part7.jpg" />
+    <Resource Include="Resources\part8.jpg" />
+    <Resource Include="Resources\part9.jpg" />
+  </ItemGroup>
+
+</Project>
